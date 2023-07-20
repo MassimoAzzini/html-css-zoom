@@ -20,6 +20,7 @@ footer {
   height: 70px;
   background-color: #222222;
   align-items: center;
+  justify-content: space-between;
 }
 
 .d-flex {
@@ -52,6 +53,7 @@ header a,
 footer a {
   text-decoration: none;
   color: white;
+  font-size: 0.8rem;
 }
 
 header a {
@@ -95,7 +97,7 @@ section .card {
 
 
 /* FOOTER */
-footer a{
+footer nav a{
   justify-content: space-between;
   align-items: center;
   display: inline-block;
@@ -103,7 +105,7 @@ footer a{
   margin: 0 10px;
 }
 
-.icon-big {
+.box-icone i {
   font-size: 25px;
 }
 
@@ -120,4 +122,14 @@ footer .fa-chevron-up {
 
 footer i.green {
   color: green;
+}
+
+footer a.end-meet {
+  width: 100px;
+  height: 100%;
+  color: red;
+  background-color: #4a4a4a;
+  text-align: center;
+  line-height: 70px;
+  font-size: 0.7rem;
 }
