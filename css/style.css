@@ -8,17 +8,18 @@ body {
 }
 
 header {
-  height: 80px;
+  height: 70px;
   justify-content: right;
 }
 
 main {
-  height: calc(100vh - 160px);
+  height: calc(100vh - 140px);
 }
 
 footer {
-  height: 80px;
+  height: 70px;
   background-color: #222222;
+  align-items: center;
 }
 
 .d-flex {
@@ -29,7 +30,8 @@ footer {
   position: relative;
 }
 
-header ul {
+header ul,
+footer ul {
   list-style: none;
 }
 
@@ -37,11 +39,46 @@ header nav {
   margin-top: 10px;
 }
 
-header a {
+header a,
+footer a {
   text-decoration: none;
-  background-color: #4a4a4a;
   color: white;
+}
+
+header a {
+  background-color: #4a4a4a;
   margin: 0 5px;
   padding: 5px;
   border-radius: 5px;
 }
+
+
+/* FOOTER */
+
+footer nav{
+
+}
+
+footer a{
+  justify-content: space-between;
+  align-items: center;
+  display: inline-block;
+  text-align: center;
+  width: 60px;
+  margin: 0 10px;
+}
+
+.icon-big {
+  font-size: 25px;
+}
+
+span.description {
+  display: block;
+  font-size: .7rem;
+  margin-top: 10px;
+}
+
+footer .fa-chevron-up{
+  font-size: .5rem;
+}
+
