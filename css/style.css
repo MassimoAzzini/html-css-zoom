@@ -113,8 +113,11 @@ span.description {
   margin-top: 5px;
 }
 
-footer .fa-chevron-up{
+footer .fa-chevron-up {
   font-size: .5rem;
   margin-left: 15px;
 }
 
+footer i.green {
+  color: green;
+}
