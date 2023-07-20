@@ -3,3 +3,45 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: black;
+}
+
+header {
+  height: 80px;
+  justify-content: right;
+}
+
+main {
+  height: calc(100vh - 160px);
+}
+
+footer {
+  height: 80px;
+  background-color: #222222;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.p-relative {
+  position: relative;
+}
+
+header ul {
+  list-style: none;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header a {
+  text-decoration: none;
+  background-color: #4a4a4a;
+  color: white;
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
