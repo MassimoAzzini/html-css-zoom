@@ -49,14 +49,15 @@ header nav {
   margin-top: 10px;
 }
 
-header a,
+header button,
 footer a {
-  text-decoration: none;
+  text-decoration: none; /* eliminare */
   color: white;
   font-size: 0.8rem;
 }
 
-header a {
+header button {
+  cursor: pointer;
   background-color: #4a4a4a;
   margin: 0 5px;
   padding: 5px;
